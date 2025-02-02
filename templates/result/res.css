@@ -1,0 +1,22 @@
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  
+h1 {
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #5d5d5d;
+    min-height: 100vh;
+}
+p {
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

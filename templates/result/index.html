@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='result/res.css')}}">
+    <title>Загугли ты уже!</title>
+</head>
+<body>
+    <h1>Давай я поищу в гугле за тебя...</h1>
+    <img class="centered-image" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg">
+    <h1> ТЕБЕ БЫЛО РЕАЛЬНО ЛЕНЬ ЗАГУГЛИТЬ ЭТО:<br>{{ res }}</h1>
+    <hr>
+    <p>Ладно.. Сейчас переведу на нужый сайт...</p>
+
+
+    <script>
+        var url = "{{url}}";
+
+        setTimeout(function() {
+            window.location.href = url;
+        }, 3000);
+    </script>
+</body>
+</html>
